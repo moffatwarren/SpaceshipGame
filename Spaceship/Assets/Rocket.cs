@@ -5,10 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class Rocket : MonoBehaviour
 {
-	public int lastSceneIndex = 2;
-
-	Rigidbody rigidBody;
+		Rigidbody rigidBody;
 	AudioSource audioSource;
+
+	[SerializeField] int lastSceneIndex = 2; //should not have to put number in. Determine last scene by code
 
 	[SerializeField] bool allowXrotation = false;
 	[SerializeField] float thrustControlForce = 100f;

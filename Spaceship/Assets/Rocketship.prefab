@@ -680,7 +680,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1549942519817716}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.07, z: 0}
+  m_LocalPosition: {x: 0, y: 1.08, z: 0}
   m_LocalScale: {x: 0.6751472, y: 0.6751472, z: 0.6751472}
   m_Children:
   - {fileID: 4240383347801440}
@@ -1561,7 +1561,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df559ad11e374b1458ca9267f9a8941b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastSceneIndex: 2
+  lastSceneIndex: 3
   allowXrotation: 0
   thrustControlForce: 20
   rotationControlSpeed: 100
